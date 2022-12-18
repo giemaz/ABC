@@ -66,13 +66,6 @@ const modulusZeroCount = (a, b, c) => {
       count += 1;
       sum = `Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš ${c} yra ${count} vienetai.`;
     }
-    // else if (i % 5 === 0) {
-    //   count += 1;
-    //   sum = `Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 5 yra ${count} vienetai.`;
-    // } else if (i % 7 === 0) {
-    //   count += 1;
-    //   sum = `Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 7 yra ${count} vienetai.`;
-    // }
   }
   return sum;
 };

@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "mini": "nodemon ./js/01-mini-uzduotys.js",
+    "mini": "nodemon ./js/01-variables.js",
+    "operate": "nodemon ./js/02-variable-operations.js",
+    "compare": "nodemon ./js/03-variable-comparison.js",
+    "for": "nodemon ./js/04-for.js",
+    "functions": "nodemon ./js/05-functions.js",
+    "codewars": "nodemon ./codewars/test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

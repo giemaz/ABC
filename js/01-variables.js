@@ -20,7 +20,9 @@ let stringC = '!';
 console.log(stringC);
 
 //3.
-const array = [1, 2, 3, 4, 5];
+const array = [1, 9, 3, 4, 5];
+const array2 = [-1, 2, -3, 7, 5];
+const array3 = [1, -2, -3, 4, -5];
 console.log(array);
 
 //4.
@@ -32,19 +34,3 @@ console.log(arrayB);
 
 const arrayC = ['apple', 'mango', 'pear', 'kale', 'nuts'];
 console.log(arrayC);
-
-// -------------------Variable operations-------------------
-
-// 1.
-const sum = one + two + three;
-console.log(sum);
-
-//2.
-const sentence = `${stringA} ${stringB} ${stringC}`;
-console.log(sentence);
-
-//3.
-
-//4.
-const megaArray = `${arrayA}, ${arrayB}, ${arrayC}`;
-console.log(megaArray);

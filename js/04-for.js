@@ -46,6 +46,9 @@ console.log(rangeSum(0, 4), '-->', 10);
 
 //2.
 function backwards(str) {
+  if (typeof str !== 'string') {
+    return `Error: this is not a string. Current value is ${typeof str}`;
+  }
   let reverse = '';
   for (let i = str.length - 1; i >= 0; i--) {
     reverse += str[i];
@@ -57,13 +60,11 @@ console.log(backwards('cat'));
 console.clear();
 //3
 const modulusZeroCount = (a, b, c) => {
-  let arr = [];
   let count = 0;
   let sum;
   for (let i = a; i <= b; i++) {
-    arr.push(i);
     if (i % c === 0) {
-      count += 1;
+      count++;
       sum = `Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš ${c} yra ${count} vienetai.`;
     }
   }
